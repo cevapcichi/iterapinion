@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="Frage"
+            tools:textColor="@android:color/black"
+            style="@style/questionStyle"/>
+
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/answer1Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Antwort 1"
+                    style="@style/answerTextStyle"/>
+
+                <TextView
+                    android:id="@+id/answer2Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/answer1Text"
+                    tools:text="Antwort 2"
+                    style="@style/answerTextStyle"/>
+
+                <TextView
+                    android:id="@+id/answer3Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/answer2Text"
+                    tools:text="Antwort 3"
+                    style="@style/answerTextStyle"/>
+
+                <TextView
+                    android:id="@+id/answer4Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/answer3Text"
+                    tools:text="Antwort 1"
+                    style="@style/answerTextStyle"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/answer1Image"
+                    style="@style/answerImageStyle"/>
+
+                <ImageView
+                    android:id="@+id/answer2Image"
+                    android:layout_toRightOf="@+id/answer1Image"
+                    style="@style/answerImageStyle"/>
+
+                <ImageView
+                    android:id="@+id/answer3Image"
+                    android:layout_toRightOf="@+id/answer2Image"
+                    style="@style/answerImageStyle"/>
+
+                <ImageView
+                    android:id="@+id/answer4Image"
+                    android:layout_toRightOf="@id/answer3Image"
+                    style="@style/answerImageStyle"/>
+
+            </RelativeLayout>
+
+            <com.hsalf.smilerating.SmileRating
+                android:id="@+id/smileyRating"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                app:placeHolderBackgroundColor="@color/smileyBackground"
+                app:placeHolderSmileColor="@color/smileySmile"
+                app:textNonSelectionColor="@color/smileySmile"
+                app:textSelectionColor="@color/smileySelectedText"
+                app:showLine="false"/>
+
+            <TextView
+                android:id="@+id/noQuestions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+</RelativeLayout>

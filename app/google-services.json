@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "960541367794",
+    "firebase_url": "https://bistrofragen.firebaseio.com",
+    "project_id": "bistrofragen",
+    "storage_bucket": "bistrofragen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960541367794:android:513f95fa9f4cd87c",
+        "android_client_info": {
+          "package_name": "de.munich.iteratec.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960541367794-l3lgk042l96qg5tekn8njqrk3n1aa08d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.munich.iteratec.admin",
+            "certificate_hash": "f631a9f9547d5480ad5444a23fe1812c31b49d37"
+          }
+        },
+        {
+          "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxiQPDV8jVKxOWlkJx5jq5NjDxZWkQdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960541367794:android:2f80a6ea7b7cf2b9",
+        "android_client_info": {
+          "package_name": "de.munich.iteratec.tabletapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960541367794-7l2k4a987ur522u6mn3jd3r9j464sal4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.munich.iteratec.tabletapp",
+            "certificate_hash": "093b09cefb3fea53313d79024c81745d2d94b736"
+          }
+        },
+        {
+          "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxiQPDV8jVKxOWlkJx5jq5NjDxZWkQdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960541367794:android:d995757c158aaea7",
+        "android_client_info": {
+          "package_name": "de.munich.iteratec.tabletbistro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960541367794-rb7rj97v5fuchs0c066et0rteomogl49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.munich.iteratec.tabletbistro",
+            "certificate_hash": "f631a9f9547d5480ad5444a23fe1812c31b49d37"
+          }
+        },
+        {
+          "client_id": "960541367794-jdehf43c5ocbhddeadprs7aca783gl14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.munich.iteratec.tabletbistro",
+            "certificate_hash": "093b09cefb3fea53313d79024c81745d2d94b736"
+          }
+        },
+        {
+          "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxiQPDV8jVKxOWlkJx5jq5NjDxZWkQdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960541367794-ootka93jqsb12pcemu213cloc06ifgjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
